@@ -24,7 +24,7 @@ export const MovieDetail = () => {
     document.title = `${movie.title}`;
   });
   return (
-    <main>
+    <main className="dark:bg-black">
       <section className="flex justify-around flex-wrap py-5">
         <div className="max-w-sm">
           <img className="rounded" src={image} alt={movie.title} />

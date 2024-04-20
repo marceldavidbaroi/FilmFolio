@@ -33,7 +33,7 @@ export const Header = () => {
     return navigate(`/search?q=${queryTerm}`);
   };
   return (
-    <nav className="bg-white border-b-2 border-gray-200 dark:bg-gray-900 dark:border-b-2 dark:border-gray-900">
+    <nav className="bg-white border-b-2 border-gray-200 dark:bg-black dark:border-b-2 dark:border-black">
       <div className="max-w-screen-fit flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to="/"
@@ -198,7 +198,7 @@ export const Header = () => {
               />
             </form>
           </div>
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-black dark:border-gray-700">
             <li>
               <NavLink
                 to="/"

@@ -3,7 +3,7 @@ import { MovieList, MovieDetail, Search, PageNotFound } from "../pages";
 
 export const AllRoutes = () => {
   return (
-    <div className="dark:bg-slate-800">
+    <div className="dark:bg-black">
       {/* to make the background dark in dark mode */}
 
       <Routes>

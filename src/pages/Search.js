@@ -14,7 +14,7 @@ export const Search = ({ apiPath }) => {
   });
 
   return (
-    <main>
+    <main className="dark:bg-black">
       <section className="py-7">
         <p className="tex-3xl text-gray-700 dark:text-white">
           {movies.length === 0

@@ -8,7 +8,7 @@ export const MovieList = ({ apiPath, title }) => {
     document.title = `${title}`;
   });
   return (
-    <main>
+    <main className="dark:bg-black">
       <div className="max-w-7xl auto py-7	">
         <div className="flex justify-start flex-wrap other:justify-evenly">
           {movies.map((movie) => (
